@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="tv_service">Dịch Vụ Tiện Ích</string>
+    <string name="tv_sale">Ưu đãi &amp; hợp tác</string>
+    <string name="tv_sale_bank">Các ưu đãi cho chủ thẻ ngân hàng</string>
+    <string name="tv_keywords">Từ khóa hot</string>
+    <string name="tv_login_info">Đăng nhập để trả nghiệm tốt nhất</string>
+    <string name="tv_tiki_deal">TIKI deal</string>
+    <string name="tv_deal_more">Xem tất cả deal hot</string>
+
+    <string name="btn_sign_up">Đăng ký</string>
+    <string name="btn_sign_in">Đăng nhập</string>
+</resources>
