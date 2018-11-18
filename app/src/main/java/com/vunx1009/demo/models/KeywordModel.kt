@@ -27,6 +27,9 @@ class KeywordModel (val context: Context): IKeywordModel {
             .request()
     }
 
+    /**
+     * parse JSONArray to list of Keyword
+     */
     private fun parseToKeyword(jsData: JSONArray) : List<Keyword>{
         val keywords = ArrayList<Keyword>()
         for (i in 0..(jsData.length() - 1)) {

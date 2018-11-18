@@ -2,6 +2,8 @@ package com.vunx1009.demo.activities
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.support.v7.widget.RecyclerView
 import com.vunx1009.demo.R
 import com.vunx1009.demo.adapters.KeywordAdapter
@@ -42,7 +44,12 @@ class HomeActivity : AppCompatActivity(), IkeywordView {
         super.onDestroy()
     }
 
+    /**
+     * after loading the keywords then display in layout
+     * @param keywords
+     */
     override fun updateSearchKeys(keywords: List<Keyword>) {
-        adapter.setData(keywords)
+        val task = Runnable { adapter.setData(keywords) }
+        Handler(Looper.getMainLooper()).post(task)
     }
 }

@@ -49,6 +49,10 @@ class KeywordUtil {
             }
         }
 
+        /**
+         * requirement 2: Background color is random.
+         * @return @ColorInt
+         */
         @ColorInt
         fun randomColor(): Int {
             val rand = Random();

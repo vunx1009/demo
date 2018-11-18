@@ -2,12 +2,14 @@
 <resources>
     <dimen name="home_card_margin_top">10dp</dimen>
     <dimen name="home_card_sale_margin_right">20dp</dimen>
+    <dimen name="home_margin">10dp</dimen>
     <dimen name="home_margin_left">10dp</dimen>
     <dimen name="home_padding">10dp</dimen>
 
     <dimen name="text_size_title">15sp</dimen>
     <dimen name="text_size_content">12sp</dimen>
 
-    <dimen name="item_keyword_fix_height">65dp</dimen>
-    <dimen name="item_keyword_fix_padding">1dp</dimen>
+    <dimen name="item_keyword_fix_height">55dp</dimen>
+    <dimen name="item_keyword_fix_padding_top">5dp</dimen>
+    <dimen name="item_keyword_fix_padding_left">10dp</dimen>
 </resources>

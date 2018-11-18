@@ -29,6 +29,6 @@ class KeywordPresenter (val context: Context): IKeywordPresenter {
     }
 
     override fun onDestroy() {
-       view = null;
+        view = null;
     }
 }
