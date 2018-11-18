@@ -2,25 +2,25 @@ package com.vunx1009.demo.presenters
 
 import android.content.Context
 import com.vunx1009.demo.interfaces.ISearchKeyListener
-import com.vunx1009.demo.interfaces.ISearchModel
+import com.vunx1009.demo.interfaces.IKeywordModel
 import com.vunx1009.demo.interfaces.IKeywordPresenter
-import com.vunx1009.demo.interfaces.ISearchView
-import com.vunx1009.demo.models.SearchModel
+import com.vunx1009.demo.interfaces.IkeywordView
+import com.vunx1009.demo.models.KeywordModel
 
 class KeywordPresenter (val context: Context): IKeywordPresenter {
 
-    private var model: ISearchModel
-    private var view: ISearchView? = null
+    private var model: IKeywordModel
+    private var view: IkeywordView? = null
 
     init {
-        model = SearchModel(context)
+        model = KeywordModel(context)
     }
 
-    override fun setModel(model: ISearchModel) {
+    override fun setModel(model: IKeywordModel) {
         this.model = model;
     }
 
-    override fun setView(view: ISearchView) {
+    override fun setView(view: IkeywordView) {
         this.view = view;
     }
 

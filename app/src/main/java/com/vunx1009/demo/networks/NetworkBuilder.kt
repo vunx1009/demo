@@ -24,15 +24,8 @@ class NetworkBuilder (val context: Context,val url: String) {
     }
 
     companion object {
-        private lateinit var mocker : INetworkRequest;
-
         fun get(context: Context, url: String): NetworkBuilder {
             return NetworkBuilder(context, url);
-        }
-
-        @VisibleForTesting
-        fun setMocker(request: INetworkRequest) {
-            mocker = request;
         }
     }
 

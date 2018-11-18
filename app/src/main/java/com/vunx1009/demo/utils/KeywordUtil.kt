@@ -25,9 +25,9 @@ class KeywordUtil {
                 // if the char is a letter, word = true.
                 if (Character.isLetter(s.get(i)) && i != endOfLine && !word) {
                     if ((s.length - i < indexCenter)) {
-                        break;
+                        break
                     } else {
-                        indexCenter = i - 1;
+                        indexCenter = i - 1
                     }
 
                     word = true

@@ -1,19 +1,16 @@
 package com.vunx1009.demo.models
 
-import android.R
 import android.content.Context
-import android.util.Log
 import com.vunx1009.demo.interfaces.ISearchKeyListener
-import com.vunx1009.demo.interfaces.ISearchModel
+import com.vunx1009.demo.interfaces.IKeywordModel
 import com.vunx1009.demo.networks.IError
 import com.vunx1009.demo.networks.IJsonResponse
 import com.vunx1009.demo.networks.NetworkBuilder
 import com.vunx1009.demo.objects.Keyword
 import com.vunx1009.demo.utils.KeywordUtil
 import org.json.JSONArray
-import java.util.function.Consumer
 
-class SearchModel (val context: Context): ISearchModel {
+class KeywordModel (val context: Context): IKeywordModel {
     override fun getKeywords(result: ISearchKeyListener) {
         NetworkBuilder.get(context, "")
             .setErrorListener(object : IError {

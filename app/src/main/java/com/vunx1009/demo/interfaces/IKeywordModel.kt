@@ -1,5 +1,5 @@
 package com.vunx1009.demo.interfaces
 
-interface ISearchModel {
+interface IKeywordModel {
     fun getKeywords(listener: ISearchKeyListener)
 }

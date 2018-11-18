@@ -6,11 +6,11 @@ import android.support.v7.widget.RecyclerView
 import com.vunx1009.demo.R
 import com.vunx1009.demo.adapters.KeywordAdapter
 import com.vunx1009.demo.interfaces.IKeywordPresenter
-import com.vunx1009.demo.interfaces.ISearchView
+import com.vunx1009.demo.interfaces.IkeywordView
 import com.vunx1009.demo.objects.Keyword
 import com.vunx1009.demo.presenters.KeywordPresenter
 
-class HomeActivity : AppCompatActivity(), ISearchView {
+class HomeActivity : AppCompatActivity(), IkeywordView {
 
     private val presenter: IKeywordPresenter;
     private val adapter: KeywordAdapter;
