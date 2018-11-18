@@ -6,6 +6,7 @@ The demo application is a simple Android application which implements the requir
 
 The implementation are:
 
+ * [x] The minimum android version is 5.0
  * [x] If the keyword is more than one word, then display in two lines.
  * [x] Background color is random.
  * [x] Keywords is fetched from keywords.json file in asset directory in background thread.
