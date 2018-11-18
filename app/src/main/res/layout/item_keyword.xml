@@ -4,8 +4,6 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="@android:color/darker_gray"
-    android:paddingBottom="@dimen/item_keyword_fix_padding_top"
-    android:paddingTop="@dimen/item_keyword_fix_padding_top"
     android:paddingLeft="@dimen/item_keyword_fix_padding_left"
     android:paddingRight="@dimen/item_keyword_fix_padding_left"
     android:layout_marginLeft="@dimen/home_margin_left">
