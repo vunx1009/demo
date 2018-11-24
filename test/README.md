@@ -10,9 +10,10 @@
 
 ### Screens design
 	The user list screen:
-	<img src=https://github.com/vunx1009/demo/blob/master/test/user_list_screen.png >
+	![](./user_list_screen.png)
+
 	The user detail screen:
-	<img src=https://github.com/vunx1009/demo/blob/master/test/user_detail_screen.png >
+	![](./user_detail_screen.png)
 	
 ### Implementations
 	The source code apply MVP model. It easily support to make unit test.
