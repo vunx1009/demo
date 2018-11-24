@@ -10,10 +10,10 @@
 
 ### Screens design
 	The user list screen:
-	![](./user_list_screen.png)
+	![](./test/user_list_screen.png)
 
 	The user detail screen:
-	![](./user_detail_screen.png)
+	![](./test/user_detail_screen.png)
 	
 ### Implementations
 	The source code apply MVP model. It easily support to make unit test.
